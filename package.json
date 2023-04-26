@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
