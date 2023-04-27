@@ -1,9 +1,7 @@
 import readlineSync from "readline-sync";
 import greetUser from "./cli.js";
 
-const generateRandomNumber = () => {
-  return Math.floor(Math.random() * 51);
-};
+const generateRandomNumber = () => Math.floor(Math.random() * 51);
 
 export default function playBrainEven() {
   const name = greetUser();
@@ -11,20 +9,17 @@ export default function playBrainEven() {
   let correctAnswers = 0;
   while (correctAnswers < 3) {
     const randomNumber = generateRandomNumber();
+    const isNumberEven = randomNumber % 2 === 0;
+    const correctAnswer = isNumberEven ? "yes" : "no";
     const answer = readlineSync.question(
       `Question: ${randomNumber}\nYour answer: `
     );
-    if (
-      (randomNumber % 2 === 0 && answer === "yes") ||
-      (randomNumber % 2 !== 0 && answer === "no")
-    ) {
+    if (answer === correctAnswer) {
       console.log("Correct!");
       correctAnswers += 1;
     } else {
       console.log(
-        `'${answer}' is wrong answer ;(. Correct answer was '${
-          randomNumber % 2 === 0 ? "yes" : "no"
-        }'.`
+        `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
       );
       console.log(`Let's try again, ${name}!`);
       return;
