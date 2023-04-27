@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-console.log("Welcome to the Brain Gamessssss!");
+
+import playBrainEven from "../src/even.js";
+playBrainEven();
