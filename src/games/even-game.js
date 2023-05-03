@@ -1,7 +1,6 @@
 import readlineSync from "readline-sync";
 import greetUser from "../cli.js";
-
-const generateRandomNumber = () => Math.floor(Math.random() * 51);
+import { generateRandomNumber } from "../utils.js";
 
 export default function playBrainEven() {
   const name = greetUser();
