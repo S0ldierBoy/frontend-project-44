@@ -6,4 +6,10 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/5d63266a53cfcd408a3b/test_coverage)](https://codeclimate.com/github/S0ldierBoy/frontend-project-44/test_coverage)
 
-https://asciinema.org/a/BeolTyqX8vZwfnrbDailexFHT
+Demo:
+
+https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a - brain-games.demo
+
+https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7 - brain-even.demo
+
+https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH - brain-calc.demo
