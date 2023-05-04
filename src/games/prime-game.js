@@ -1,4 +1,5 @@
 import playGame from '../index.js';
+
 import { isPrime, generateRandomNumber } from '../utils.js';
 
 export const generateQuestionAndAnswer = () => {

@@ -1,4 +1,5 @@
 import playGame from '../index.js';
+
 import { getGcd, generateRandomNumber } from '../utils.js';
 
 const generateQuestionAndAnswer = () => {
