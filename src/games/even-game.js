@@ -2,7 +2,7 @@ import { generateRandomNumber } from "../utils.js";
 import playGame from "../index.js";
 
 const generateQuestionAndAnswer = () => {
-  const question = generateRandomNumber(1, 100);
+  const question = generateRandomNumber(1, 10);
   const correctAnswer = question % 2 === 0 ? "yes" : "no";
   return { question, correctAnswer };
 };

@@ -14,3 +14,10 @@ export const calculate = (num1, num2, operator) => {
       throw new Error(`Unknown operator: '${operator}'`);
   }
 };
+
+export const getGcd = (a, b) => {
+  if (b === 0) {
+    return a;
+  }
+  return getGcd(b, a % b);
+};
