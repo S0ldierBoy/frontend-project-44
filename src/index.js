@@ -7,7 +7,7 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
 
   let correctAnswers = 0;
 
-  while (correctAnswers < 3) {
+  for (let i = 0; i < 3; i += 1) {
     const { question, correctAnswer } = getQuestionAndAnswer();
     const userAnswer = readlineSync.question(
       `Question: ${question}\nYour answer: `

@@ -4,8 +4,8 @@ import playGame from "../index.js";
 const operators = ["+", "-", "*"];
 
 export const generateQuestionAndAnswer = () => {
-  const num1 = generateRandomNumber(1, 3);
-  const num2 = generateRandomNumber(1, 3);
+  const num1 = generateRandomNumber(1, 5);
+  const num2 = generateRandomNumber(1, 5);
   const operator = operators[generateRandomNumber(0, operators.length - 1)];
   const question = `${num1} ${operator} ${num2}`;
   const correctAnswer = calculate(num1, num2, operator);
