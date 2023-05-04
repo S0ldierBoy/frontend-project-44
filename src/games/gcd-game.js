@@ -10,7 +10,6 @@ const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-export const gameDescription =
-  'Find the greatest common divisor of given numbers.';
+export const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 export default () => playGame(gameDescription, generateQuestionAndAnswer);

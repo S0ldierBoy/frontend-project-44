@@ -10,7 +10,7 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
   for (let i = 0; i < 3; i += 1) {
     const { question, correctAnswer } = getQuestionAndAnswer();
     const userAnswer = readlineSync.question(
-      `Question: ${question}\nYour answer: `
+      `Question: ${question}\nYour answer: `,
     );
 
     if (userAnswer === String(correctAnswer)) {
@@ -18,7 +18,7 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
       correctAnswers += 1;
     } else {
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
       );
       console.log(`Let's try again, ${name}!`);
       return;
