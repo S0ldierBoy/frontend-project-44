@@ -1,6 +1,6 @@
-export const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-export const calculate = (num1, num2, operator) => {
+const calculate = (num1, num2, operator) => {
   switch (operator) {
     case '+':
       return num1 + num2;
@@ -13,14 +13,14 @@ export const calculate = (num1, num2, operator) => {
   }
 };
 
-export const getGcd = (a, b) => {
+const getGcd = (a, b) => {
   if (b === 0) {
     return a;
   }
   return getGcd(b, a % b);
 };
 
-export const generateProgression = (length) => {
+const generateProgression = (length) => {
   const first = generateRandomNumber(1, 10);
   const step = generateRandomNumber(2, 5);
   const hiddenIndex = generateRandomNumber(0, length - 1);
@@ -39,7 +39,7 @@ export const generateProgression = (length) => {
   return { progression, hiddenValue: first + hiddenIndex * step };
 };
 
-export const isPrime = (num) => {
+const isPrime = (num) => {
   if (num < 2) {
     return false;
   }
@@ -51,4 +51,12 @@ export const isPrime = (num) => {
   }
 
   return true;
+};
+
+export {
+  generateRandomNumber,
+  calculate,
+  getGcd,
+  generateProgression,
+  isPrime,
 };
