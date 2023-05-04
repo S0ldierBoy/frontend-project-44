@@ -8,8 +8,6 @@ https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH - brain-calc
 
 https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ - brain-gcd
 
-https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA - brain-progression
-
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/S0ldierBoy/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/S0ldierBoy/frontend-project-44/actions)
