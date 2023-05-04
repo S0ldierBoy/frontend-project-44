@@ -5,8 +5,6 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
   const name = greetUser();
   console.log(gameDescription);
 
-  let correctAnswers = 0;
-
   for (let i = 0; i < 3; i += 1) {
     const { question, correctAnswer } = getQuestionAndAnswer();
     const userAnswer = readlineSync.question(
@@ -15,7 +13,6 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
 
     if (userAnswer === String(correctAnswer)) {
       console.log('Correct!');
-      correctAnswers += 1;
     } else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
@@ -27,4 +24,5 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
 
   console.log(`Congratulations, ${name}!`);
 };
+
 export default playGame;
