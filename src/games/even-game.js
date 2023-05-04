@@ -1,9 +1,9 @@
-import { generateRandomNumber } from "../utils.js";
-import playGame from "../index.js";
+import { generateRandomNumber } from '../utils.js';
+import playGame from '../index.js';
 
 const generateQuestionAndAnswer = () => {
   const question = generateRandomNumber(1, 10);
-  const correctAnswer = question % 2 === 0 ? "yes" : "no";
+  const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
   return { question, correctAnswer };
 };
 

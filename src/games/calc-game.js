@@ -1,7 +1,7 @@
-import { generateRandomNumber, calculate } from "../utils.js";
-import playGame from "../index.js";
+import { generateRandomNumber, calculate } from '../utils.js';
+import playGame from '../index.js';
 
-const operators = ["+", "-", "*"];
+const operators = ['+', '-', '*'];
 
 export const generateQuestionAndAnswer = () => {
   const num1 = generateRandomNumber(1, 10);
@@ -12,6 +12,6 @@ export const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-export const gameDescription = "What is the result of the expression?";
+export const gameDescription = 'What is the result of the expression?';
 
 export default () => playGame(gameDescription, generateQuestionAndAnswer);

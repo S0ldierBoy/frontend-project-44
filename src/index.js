@@ -1,5 +1,5 @@
-import readlineSync from "readline-sync";
-import greetUser from "./cli.js";
+import readlineSync from 'readline-sync';
+import greetUser from './cli.js';
 
 const playGame = (gameDescription, getQuestionAndAnswer) => {
   const name = greetUser();
@@ -14,7 +14,7 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
     );
 
     if (userAnswer === String(correctAnswer)) {
-      console.log("Correct!");
+      console.log('Correct!');
       correctAnswers += 1;
     } else {
       console.log(

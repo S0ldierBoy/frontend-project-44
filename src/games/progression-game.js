@@ -1,5 +1,5 @@
-import playGame from "../index.js";
-import { generateProgression } from "../utils.js";
+import playGame from '../index.js';
+import { generateProgression } from '../utils.js';
 
 export const generateQuestionAndAnswer = () => {
   const { progression, hiddenValue } = generateProgression(10);
@@ -8,6 +8,6 @@ export const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-export const gameDescription = "What number is missing in the progression?";
+export const gameDescription = 'What number is missing in the progression?';
 
 export default () => playGame(gameDescription, generateQuestionAndAnswer);

@@ -4,11 +4,11 @@ export const generateRandomNumber = (min, max) => {
 
 export const calculate = (num1, num2, operator) => {
   switch (operator) {
-    case "+":
+    case '+':
       return num1 + num2;
-    case "-":
+    case '-':
       return num1 - num2;
-    case "*":
+    case '*':
       return num1 * num2;
     default:
       throw new Error(`Unknown operator: '${operator}'`);
@@ -26,12 +26,12 @@ export const generateProgression = (length) => {
   const first = generateRandomNumber(1, 10);
   const step = generateRandomNumber(2, 5);
   const hiddenIndex = generateRandomNumber(0, length - 1);
-  let progression = "";
+  let progression = '';
   let currentValue = first;
 
   for (let i = 0; i < length; i += 1) {
     if (i === hiddenIndex) {
-      progression += ".. ";
+      progression += '.. ';
     } else {
       progression += `${currentValue} `;
     }
