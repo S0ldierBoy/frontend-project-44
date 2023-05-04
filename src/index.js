@@ -27,5 +27,4 @@ const playGame = (gameDescription, getQuestionAndAnswer) => {
 
   console.log(`Congratulations, ${name}!`);
 };
-
 export default playGame;
