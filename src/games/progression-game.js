@@ -1,5 +1,4 @@
 import playGame from '../index.js';
-
 import { generateProgression } from '../utils.js';
 
 export const generateQuestionAndAnswer = () => {

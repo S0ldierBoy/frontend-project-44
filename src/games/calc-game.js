@@ -1,5 +1,4 @@
 import { generateRandomNumber, calculate } from '../utils.js';
-
 import playGame from '../index.js';
 
 const operators = ['+', '-', '*'];
