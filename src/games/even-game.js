@@ -9,4 +9,5 @@ const generateQuestionAndAnswer = () => {
 
 export const gameDescription =
   'Answer "yes" if the number is even, otherwise answer "no".';
+
 export default () => playGame(gameDescription, generateQuestionAndAnswer);

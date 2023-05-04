@@ -21,3 +21,22 @@ export const getGcd = (a, b) => {
   }
   return getGcd(b, a % b);
 };
+
+export const generateProgression = (length) => {
+  const first = generateRandomNumber(1, 10);
+  const step = generateRandomNumber(2, 5);
+  const hiddenIndex = generateRandomNumber(0, length - 1);
+  let progression = "";
+  let currentValue = first;
+
+  for (let i = 0; i < length; i += 1) {
+    if (i === hiddenIndex) {
+      progression += ".. ";
+    } else {
+      progression += `${currentValue} `;
+    }
+    currentValue += step;
+  }
+
+  return { progression, hiddenValue: first + hiddenIndex * step };
+};
