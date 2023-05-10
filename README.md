@@ -6,32 +6,17 @@
 
 ### Описание проекта: "Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
-### "brain-games": - [игра-приветствие](https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
+### "brain-games" - [игра-приветствие](https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
 
-### "brain-even":
+### "brain-even" - [игра, в которой нужно определить, является ли число четным](https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7)
 
-игра, в которой нужно определить, является ли число четным:
-https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7
+### "brain-calc" - [игра, в которой нужно решить простое математическое выражение](https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH)
 
-### "brain-calc":
+### "brain-gcd" - [игра, в которой нужно найти наибольший общий делитель двух чисел](https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ)
 
-игра, в которой нужно решить простое математическое выражение:
-https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH
+### "brain-progression" - [игра, в которой нужно определить недостающее число в арифметической прогрессии](https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA)
 
-### "brain-gcd":
-
-игра, в которой нужно найти наибольший общий делитель двух чисел:
-https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ
-
-### "brain-progression":
-
-игра, в которой нужно определить недостающее число в арифметической прогрессии:
-https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA
-
-### "brain-prime":
-
-игра, в которой нужно определить, является ли число простым:
-https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo
+### "brain-prime" - [игра, в которой нужно определить, является ли число простым](https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo)
 
 Проект был создан как учебный проект в рамках обучения на Hexlet.
 
