@@ -4,20 +4,38 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d63266a53cfcd408a3b/maintainability)](https://codeclimate.com/github/S0ldierBoy/frontend-project-44/maintainability)
 
-### Setup:
+### Описание проекта:
 
-make install
+"Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
-### Ascinema:
+#### "brain-games":
 
-https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a - brain-games
+игра-приветствие:
+https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a
 
-https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7 - brain-even
+#### "brain-even":
 
-https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH - brain-calc
+игра, в которой нужно определить, является ли число четным:
+https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7
 
-https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ - brain-gcd
+#### "brain-calc":
 
-https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA - brain-progression
+игра, в которой нужно решить простое математическое выражение:
+https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH
 
-https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo - brain-prime
+#### "brain-gcd":
+
+игра, в которой нужно найти наибольший общий делитель двух чисел:
+https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ
+
+#### "brain-progression":
+
+игра, в которой нужно определить недостающее число в арифметической прогрессии:
+https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA
+
+#### "brain-prime":
+
+игра, в которой нужно определить, является ли число простым:
+https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo
+
+Проект был создан как учебный проект в рамках обучения на Hexlet.
