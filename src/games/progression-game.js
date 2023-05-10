@@ -8,6 +8,6 @@ export const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-export const gameDescription = 'What number is missing in the progression?';
+const gameDescription = 'What number is missing in the progression?';
 
 export default () => playGame(gameDescription, generateQuestionAndAnswer);

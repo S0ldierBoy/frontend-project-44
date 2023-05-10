@@ -7,6 +7,6 @@ const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-export const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
+const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 export default () => playGame(gameDescription, generateQuestionAndAnswer);

@@ -13,6 +13,6 @@ export const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-export const gameDescription = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 
 export default () => playGame(gameDescription, generateQuestionAndAnswer);
