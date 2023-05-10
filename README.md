@@ -6,9 +6,7 @@
 
 ### Описание проекта: "Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
-### "brain-games":
-
-_[игра-приветствие]_(https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
+### "brain-games": - [игра-приветствие](https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
 
 ### "brain-even":
 
