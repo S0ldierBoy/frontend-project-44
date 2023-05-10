@@ -10,6 +10,10 @@
 
 > Демонстрацию каждой игры можно посмотреть, кликнув на название игры:
 
+**"brain-progression"** - [найти недостающее число в прогрессии.](https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA)
+
+**"brain-prime"** - [определить простое число.](https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo)
+
 **"brain-games"** - [игра-приветствие.](https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
 
 **"brain-even"** - [определить четность числа.](https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7)
@@ -17,10 +21,6 @@
 **"brain-calc"** - [решить простое выражение.](https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH)
 
 **"brain-gcd"** - [найти НОД двух чисел.](https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ)
-
-**"brain-progression"** - [найти недостающее число в прогрессии.](https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA)
-
-**"brain-prime"** - [определить, является ли число простым.](https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo)
 
 > Проект был создан как учебный проект в рамках обучения на _Hexlet_.
 
