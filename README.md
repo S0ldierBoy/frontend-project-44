@@ -4,9 +4,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d63266a53cfcd408a3b/maintainability)](https://codeclimate.com/github/S0ldierBoy/frontend-project-44/maintainability)
 
-## Описание проекта:
-
-"Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
+## Описание проекта: "Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
 ### "brain-games":
 
