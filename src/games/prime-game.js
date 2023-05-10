@@ -1,5 +1,18 @@
 import playGame from '../index.js';
-import { isPrime, generateRandomNumber } from '../utils.js';
+import generateRandomNumber from '../utils.js';
+
+const isPrime = (num) => {
+  if (num < 2) {
+    return false;
+  }
+
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+};
 
 export const generateQuestionAndAnswer = () => {
   const question = generateRandomNumber(1, 100);

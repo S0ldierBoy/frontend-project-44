@@ -1,5 +1,12 @@
 import playGame from '../index.js';
-import { getGcd, generateRandomNumber } from '../utils.js';
+import generateRandomNumber from '../utils.js';
+
+const getGcd = (a, b) => {
+  if (b === 0) {
+    return a;
+  }
+  return getGcd(b, a % b);
+};
 
 const generateQuestionAndAnswer = () => {
   const num1 = generateRandomNumber(1, 10);
