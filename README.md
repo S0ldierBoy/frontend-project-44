@@ -6,27 +6,27 @@
 
 ### Описание проекта: "Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
-### "brain-games" - [игра-приветствие](https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
+**"brain-games"** - [игра-приветствие](https://asciinema.org/a/r0q5GdySC7bF6lERnv0FqHh1a)
 
-### "brain-even" - [игра, в которой нужно определить, является ли число четным](https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7)
+**"brain-even"** - [определить четность числа](https://asciinema.org/a/Zf7rOiT3UitPcaP4rNXcMRZx7)
 
-### "brain-calc" - [игра, в которой нужно решить простое математическое выражение](https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH)
+**"brain-calc"** - [решить простое выражение](https://asciinema.org/a/KjhtkBVZIIGPesWNJ3Djj7EMH)
 
-### "brain-gcd" - [игра, в которой нужно найти наибольший общий делитель двух чисел](https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ)
+**"brain-gcd"** - [найти НОД двух чисел.](https://asciinema.org/a/kqU5HLvH1ErbN47GQOH1cZkdZ)
 
-### "brain-progression" - [игра, в которой нужно определить недостающее число в арифметической прогрессии](https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA)
+**"brain-progression"** - [найти недостающее число в прогрессии](https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA)
 
-### "brain-prime" - [игра, в которой нужно определить, является ли число простым](https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo)
+**"brain-prime"** - [определить, является ли число простым](https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo)
 
-Проект был создан как учебный проект в рамках обучения на Hexlet.
+Проект был создан как учебный проект в рамках обучения на **Hexlet**.
 
 ## Системные требования:
 
-Для запуска приложения требуется наличие интерпретатора языка программирования Python версии 3.6 и выше.
+Для запуска приложения требуется наличие интерпретатора языка программирования **Python версии 3.6 и выше.**
 
 ## Установка:
 
 1. Склонируйте репозиторий с помощью команды git clone https://github.com/ваш-логин/brain-games.git
 2. Перейдите в директорию проекта
-3. Установите необходимые зависимости с помощью команды make install
-4. Запустите интересующее приложение введя название игры ,к примеру: brain-games
+3. Установите необходимые зависимости с помощью команды **make install**
+4. Запустите интересующее приложение введя название игры ,к примеру: **brain-games**
