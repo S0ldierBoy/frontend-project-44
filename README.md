@@ -1,10 +1,10 @@
-### Hexlet tests and linter status:
+## Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/S0ldierBoy/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/S0ldierBoy/frontend-project-44/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d63266a53cfcd408a3b/maintainability)](https://codeclimate.com/github/S0ldierBoy/frontend-project-44/maintainability)
 
-### Описание проекта:
+## Описание проекта:
 
 **"Brain-Games"** - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
@@ -30,7 +30,7 @@
 
 ## Установка:
 
-1. Склонируйте репозиторий с помощью команды : _git clone https://github.com/ваш-логин/brain-games.git_
+1. Склонируйте репозиторий с помощью команды : _"git clone https://github.com/ваш-логин/frontend-project-44.git"_
 2. Перейдите в директорию проекта
 3. Установите необходимые зависимости с помощью команды: _make install_
 4. Запустите интересующее приложение введя название игры, к примеру: _brain-games_
