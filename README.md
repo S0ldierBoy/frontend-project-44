@@ -1,4 +1,4 @@
-## Hexlet tests and linter status:
+### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/S0ldierBoy/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/S0ldierBoy/frontend-project-44/actions)
 
