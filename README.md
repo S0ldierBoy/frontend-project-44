@@ -4,7 +4,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d63266a53cfcd408a3b/maintainability)](https://codeclimate.com/github/S0ldierBoy/frontend-project-44/maintainability)
 
-## Описание проекта: "Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
+### Описание проекта: "Brain-Games" - это набор консольных игр, которые помогут тренировать ваш разум и развивать логическое мышление. В настоящее время в наборе содержится 6 игр:
 
 ### "brain-games":
 
@@ -37,3 +37,7 @@ https://asciinema.org/a/GIyGcf0VFm4Bj4Nhls2EVhPPA
 https://asciinema.org/a/mQyYgIW0aljIP2uzYvF0zwtpo
 
 Проект был создан как учебный проект в рамках обучения на Hexlet.
+
+## Системные требования:
+
+Для запуска приложения требуется наличие интерпретатора языка программирования Python версии 3.6 и выше.
