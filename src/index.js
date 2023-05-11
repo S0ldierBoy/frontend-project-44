@@ -1,16 +1,11 @@
 import readlineSync from 'readline-sync';
 
-const greetUser = () => {
-  console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${name}!`);
-  return name;
-};
-
 const attemptsLimit = 3;
 
 const playGame = (gameDescription, getQuestionAndAnswer) => {
-  const name = greetUser();
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log(gameDescription);
 
   for (let i = 0; i < attemptsLimit; i += 1) {
