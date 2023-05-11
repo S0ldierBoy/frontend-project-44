@@ -1,7 +1,7 @@
 import playGame from '../index.js';
 import generateRandomNumber from '../utils.js';
 
-const isPrime = (num) => {
+const isNumberPrime = (num) => {
   if (num < 2) {
     return false;
   }
@@ -16,7 +16,7 @@ const isPrime = (num) => {
 
 export const generateQuestionAndAnswer = () => {
   const question = generateRandomNumber(1, 100);
-  const correctAnswer = isPrime(question) ? 'yes' : 'no';
+  const correctAnswer = isNumberPrime(question) ? 'yes' : 'no';
   return { question, correctAnswer };
 };
 

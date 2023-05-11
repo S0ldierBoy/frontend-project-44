@@ -1,7 +1,7 @@
 import generateRandomNumber from '../utils.js';
 import playGame from '../index.js';
 
-const calculate = (num1, num2, operator) => {
+const calculateResult = (num1, num2, operator) => {
   switch (operator) {
     case '+':
       return num1 + num2;
@@ -16,15 +16,15 @@ const calculate = (num1, num2, operator) => {
 
 const operators = ['+', '-', '*'];
 
-export const generateQuestionAndAnswer = () => {
-  const num1 = generateRandomNumber(1, 10);
-  const num2 = generateRandomNumber(1, 10);
+export const generateQuestionAndAnswerForCalcGame = () => {
+  const firstNumber = generateRandomNumber(1, 10);
+  const secondNumber = generateRandomNumber(1, 10);
   const operator = operators[generateRandomNumber(0, operators.length - 1)];
-  const question = `${num1} ${operator} ${num2}`;
-  const correctAnswer = calculate(num1, num2, operator);
+  const question = `${firstNumber} ${operator} ${secondNumber}`;
+  const correctAnswer = calculateResult(firstNumber, secondNumber, operator);
   return { question, correctAnswer };
 };
 
 const gameDescription = 'What is the result of the expression?';
 
-export default () => playGame(gameDescription, generateQuestionAndAnswer);
+export default () => playGame(gameDescription, generateQuestionAndAnswerForCalcGame);
